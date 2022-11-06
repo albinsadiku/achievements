@@ -1,11 +1,11 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 
-// CONFIG
+// cfg
 const API_KEY = ''; // get yours here: https://steamcommunity.com/dev/apikey
 const STEAM_ID = '';
 
-// Get Data
+// get data
 async function GetPlayerSummaries() {
 	const result = await fetch('https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=' + API_KEY + '&steamids=' + STEAM_ID);
 	const jsonRes = await result.json();
