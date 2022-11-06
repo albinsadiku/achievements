@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 
 // CONFIG
-const API_KEY = ''; 
+const API_KEY = ''; // Get one here: https://steamcommunity.com/dev/apikey
 const STEAM_ID = '';
 
 // Get Data
